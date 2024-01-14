@@ -19,11 +19,11 @@ class _VerifyEmailViewState extends State<VerifyEmailView> {
       ),
       body: Column(
         children: [
-          const Text(
-            "We've sent you an email verification. Please open it to verify your account.",
-          ),
-          const Text(
-            "If you haven't received a verification email yet, press the button below",
+          const Padding(
+            padding: EdgeInsets.all(16.0),
+            child: Text(
+              "We've sent you an email verification. Please open it to verify your account. If you haven't received a verification email yet, press the button below.",
+            ),
           ),
           TextButton(
             onPressed: () {
