@@ -1,6 +1,8 @@
 # my_app
 
-A new Flutter project.
+This is a flutter application for making notes which can be used on both android and iOS (natively). It also has features to register, verify and login email IDs.
+This is acheived by using backend and online database features of 🔥Firebase. I created this project during my winter break (December to first week of January).
+
 
 ## Getting Started
 
